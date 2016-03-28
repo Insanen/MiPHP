@@ -1,0 +1,266 @@
+/*
+
+=== Aetrex Front-End Solution ===
+Contributors: MisterZik, Insanen Team, Insanen Solutions
+Tags: front-end, php, css, aetrex frontend
+Donate link: http://insanen.com
+License: MIT
+
+*/
+
+@media screen and (max-width: 600px) {
+  .navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
+    margin-left: 0em;
+  }
+
+  #motto {
+    margin-left: -9em!important;
+  }
+
+  .search {
+    margin-top: 0em!important;
+    margin-right: -2em!important;
+    width: 81%;
+  }
+
+  .branding {
+    height: 200px;
+    margin-bottom: 150px!important;
+  }
+
+  span.cork {
+    margin-left: 2em!important;
+    background: rgba(255, 255, 255, 0.6);
+    padding: 14px!important;
+    font-size: 15px;
+  }
+
+  .form-control {
+    width: 41%!important;
+    margin-left: -16em!important;
+  }
+
+  button#searchbtn {
+    margin-top: -4.9em;
+    margin-right: -6em;
+  }
+}
+
+nav.navbar.navbar-default.navbar-fixed-top {
+  background: #bfd255;
+ /* Old browsers */
+  background: -moz-linear-gradient(top, #bfd255 0%, #8eb92a 50%, #72aa00 51%, #9ecb2d 100%);
+ /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #bfd255 0%,#8eb92a 50%,#72aa00 51%,#9ecb2d 100%);
+ /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #bfd255 0%,#8eb92a 50%,#72aa00 51%,#9ecb2d 100%);
+ /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bfd255', endColorstr='#9ecb2d',GradientType=0 );
+ /* IE6-9 */
+}
+
+#banner {
+  /* background: url('img/banner.jpg') no-repeat center center fixed;*/
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 229px;
+}
+
+.branding {
+  height: 119px;
+}
+
+img.logo {
+  padding-top: 62px;
+  padding-left: 10px;
+  width: 146px;
+}
+
+.search {
+  margin-top: -5.2rem;
+  margin-right: 2rem;
+}
+
+h4 {
+  color: #aa8e74!important;
+}
+
+h5 {
+  color: #c48f4d!important;
+}
+
+.footer_1 {
+  margin-left: 16em;
+}
+
+.navbar-header {
+  position: absolute;
+  /* margin-left: auto!important; */
+  margin-right: auto!important;
+  margin-left: 34%!important;
+}
+
+.crossover {
+  padding-bottom: 7px;
+  padding-top: 4px;
+  margin-bottom: 9px;
+  color: #000;
+  margin-top: -2.4em;
+  background: #cdeb8e;
+ /* Old browsers */
+  background: -moz-linear-gradient(top, #cdeb8e 0%, #a5c956 100%);
+ /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #cdeb8e 0%,#a5c956 100%);
+ /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #cdeb8e 0%,#a5c956 100%);
+ /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cdeb8e', endColorstr='#a5c956',GradientType=0 );
+ /* IE6-9 */
+}
+
+span.cork {
+  margin-left: 17em;
+  background: rgba(255, 255, 255, 0.6);
+  padding: 9px;
+  font-family: monospace;
+}
+
+.center {
+  margin-left: 17em;
+}
+
+p.info {
+  font-family: initial;
+  font-size: 16px;
+  font-style: italic;
+}
+
+hr {
+  border-top: 1px solid rgba(0, 0, 0, 0.12);
+}
+
+footer {
+  margin-left: -16em;
+}
+
+.myButtonLink {
+  display: block;
+  width: 240px;
+  height: 383px;
+  background: url('img/shop-women-collection.jpg') bottom;
+  text-indent: -99999px;
+}
+
+.myButtonLink:hover {
+  background-position: 0 0;
+}
+
+.jumbotron {
+  padding: 1px 0!important;
+}
+
+.carousel-inner {
+  height: 300px!important;
+  width: 100%!important;
+}
+
+img.carousel {
+  position: absolute;
+  top: 29%;
+  transform: translateY(-29%);
+}
+
+/* Wrapper */
+.icon-button {
+  background-color: white;
+  border-radius: 3.6rem;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 2.0rem;
+  height: 3.6rem;
+  line-height: 3.6rem;
+  margin: 0 5px;
+  position: relative;
+  text-align: center;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  width: 3.6rem;
+}
+
+/* Circle */
+.icon-button span {
+  border-radius: 0;
+  display: block;
+  height: 0;
+  left: 50%;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+  width: 0;
+}
+
+.icon-button:hover span {
+  width: 3.6rem;
+  height: 3.6rem;
+  border-radius: 3.6rem;
+  margin: -1.8rem;
+}
+
+.twitter span {
+  background-color: #4099ff;
+}
+
+.facebook span {
+  background-color: #3B5998;
+}
+
+.google-plus span {
+  background-color: #db5a3c;
+}
+
+/* Icons */
+.icon-button i {
+  background: none;
+  color: white;
+  height: 3.6rem;
+  left: 0;
+  line-height: 3.6rem;
+  position: absolute;
+  top: 0;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+  width: 3.6rem;
+  z-index: 10;
+}
+
+.icon-button .icon-twitter {
+  color: #4099ff;
+}
+
+.icon-button .icon-facebook {
+  color: #3B5998;
+}
+
+.icon-button .icon-google-plus {
+  color: #db5a3c;
+}
+
+.icon-button:hover .icon-twitter,
+.icon-button:hover .icon-facebook,
+.icon-button:hover .icon-google-plus {
+  color: white;
+}
+
+.navbar-default .navbar-brand {
+    color: #A2D23A!important;
+}
