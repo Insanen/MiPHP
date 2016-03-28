@@ -15,3 +15,4 @@ Super Micro MiPHP Framework - If it ain't broken, why fix it?.
   * Add PHP OOP
   * Add MySql (Registration, Login and Search)
   * Add Backend for easy modification of theme.
+  * Add Mobile View.
