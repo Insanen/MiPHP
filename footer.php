@@ -1,15 +1,12 @@
 
       <hr>
 
+
       <footer>
 
 
       <!-- Example row of columns -->
       <div class="row">
-        <div class="col-md-2">
-
-
-        </div>
 
         <div class="col-md-2">
 	    <h5>CUSTOMER SUPPORT</h5>
@@ -41,7 +38,7 @@ Careers<br />
 
 			<img src="img/footer_07.jpg" width="18" height="52" alt="">
 
-      <div class="pull-right">
+      <div class="pull-right copyright">
    <p>&copy; Copyright 2015</p>
           </div>
 

@@ -18,9 +18,7 @@ License: MIT
   }
 
   .search {
-    margin-top: 0em!important;
-    margin-right: -2em!important;
-    width: 81%;
+    display: none;
   }
 
   .branding {
@@ -41,9 +39,34 @@ License: MIT
   }
 
   button#searchbtn {
-    margin-top: -4.9em;
-    margin-right: -6em;
+    margin-top: -66px;
+    margin-left: -4rem;
   }
+
+  div#myNavbar {
+    margin-top: 5rem!important;
+    background: #ACC844!important;
+  }
+
+  span.login {
+    margin-left: -10em;
+  }
+
+  div#myCarousel {
+    margin-top: -15rem;
+  }
+
+  .carousel-inner {
+    height: 211px!important;
+  }
+
+  img.carousel {
+    transform: translateY(-14%)!important;
+  }
+
+  .pull-right.copyright {
+    margin-top: 10px;
+}
 }
 
 nav.navbar.navbar-default.navbar-fixed-top {
@@ -91,15 +114,24 @@ h5 {
   color: #c48f4d!important;
 }
 
-.footer_1 {
-  margin-left: 16em;
-}
-
 .navbar-header {
   position: absolute;
   /* margin-left: auto!important; */
-  margin-right: auto!important;
-  margin-left: 34%!important;
+}
+
+.navbar-default .navbar-toggle {
+  border-color: #969696!important;
+  background: #2C2E27!important;
+  margin-left: 4px!important;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: rgba(255, 255, 255, 0.69)!important;
+}
+
+div#myNavbar {
+  margin-top: 0;
+  background: transparent;
 }
 
 .crossover {
@@ -141,10 +173,6 @@ hr {
   border-top: 1px solid rgba(0, 0, 0, 0.12);
 }
 
-footer {
-  margin-left: -16em;
-}
-
 .myButtonLink {
   display: block;
   width: 240px;
@@ -162,7 +190,7 @@ footer {
 }
 
 .carousel-inner {
-  height: 300px!important;
+  height: 300px;
   width: 100%!important;
 }
 
@@ -262,5 +290,5 @@ img.carousel {
 }
 
 .navbar-default .navbar-brand {
-    color: #A2D23A!important;
+  color: #A2D23A!important;
 }
