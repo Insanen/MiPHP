@@ -7,81 +7,94 @@ Donate link: http://insanen.com
 License: MIT
 
 */
-
 @media screen and (max-width: 600px) {
-  .navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
+  /* line 12, ../sass/style.scss */
+  .navbar > .container .navbar-brand, .navbar > .container-fluid .navbar-brand {
     margin-left: 0em;
   }
 
+  /* line 16, ../sass/style.scss */
   #motto {
-    margin-left: -9em!important;
+    margin-left: -9em !important;
   }
 
+  /* line 20, ../sass/style.scss */
   .search {
     display: none;
   }
 
+  /* line 24, ../sass/style.scss */
   .branding {
     height: 200px;
-    margin-bottom: 150px!important;
+    margin-bottom: 150px !important;
   }
 
+  /* line 29, ../sass/style.scss */
   span.cork {
-    margin-left: 2em!important;
+    margin-left: 2em !important;
     background: rgba(255, 255, 255, 0.6);
-    padding: 14px!important;
+    padding: 14px !important;
     font-size: 15px;
   }
 
+  /* line 36, ../sass/style.scss */
   .form-control {
-    width: 41%!important;
-    margin-left: -16em!important;
+    width: 41% !important;
+    margin-left: -16em !important;
   }
 
+  /* line 41, ../sass/style.scss */
   button#searchbtn {
     margin-top: -66px;
     margin-left: -4rem;
   }
 
+  /* line 46, ../sass/style.scss */
   div#myNavbar {
-    margin-top: 5rem!important;
-    background: #ACC844!important;
+    margin-top: 5rem !important;
+    background: #ACC844 !important;
   }
 
+  /* line 51, ../sass/style.scss */
   span.login {
     margin-left: -10em;
   }
 
+  /* line 55, ../sass/style.scss */
   div#myCarousel {
     margin-top: -15rem;
   }
 
+  /* line 59, ../sass/style.scss */
   .carousel-inner {
-    height: 211px!important;
+    height: 211px !important;
   }
 
+  /* line 63, ../sass/style.scss */
   img.carousel {
-    transform: translateY(-14%)!important;
+    transform: translateY(-14%) !important;
   }
 
+  /* line 67, ../sass/style.scss */
   .pull-right.copyright {
     margin-top: 10px;
+  }
 }
-}
-
+/* line 72, ../sass/style.scss */
 nav.navbar.navbar-default.navbar-fixed-top {
   background: #bfd255;
- /* Old browsers */
+  /* Old browsers */
   background: -moz-linear-gradient(top, #bfd255 0%, #8eb92a 50%, #72aa00 51%, #9ecb2d 100%);
- /* FF3.6-15 */
-  background: -webkit-linear-gradient(top, #bfd255 0%,#8eb92a 50%,#72aa00 51%,#9ecb2d 100%);
- /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to bottom, #bfd255 0%,#8eb92a 50%,#72aa00 51%,#9ecb2d 100%);
- /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #bfd255 0%, #8eb92a 50%, #72aa00 51%, #9ecb2d 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #bfd255 0%, #8eb92a 50%, #72aa00 51%, #9ecb2d 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bfd255', endColorstr='#9ecb2d',GradientType=0 );
- /* IE6-9 */
+  /* IE6-9 */
 }
 
+/* line 85, ../sass/style.scss */
 #banner {
   /* background: url('img/banner.jpg') no-repeat center center fixed;*/
   -webkit-background-size: cover;
@@ -91,49 +104,59 @@ nav.navbar.navbar-default.navbar-fixed-top {
   height: 229px;
 }
 
+/* line 94, ../sass/style.scss */
 .branding {
   height: 119px;
 }
 
+/* line 98, ../sass/style.scss */
 img.logo {
   padding-top: 62px;
   padding-left: 10px;
   width: 146px;
 }
 
+/* line 104, ../sass/style.scss */
 .search {
   margin-top: -5.2rem;
   margin-right: 2rem;
 }
 
+/* line 109, ../sass/style.scss */
 h4 {
-  color: #aa8e74!important;
+  color: #aa8e74 !important;
 }
 
+/* line 113, ../sass/style.scss */
 h5 {
-  color: #c48f4d!important;
+  color: #c48f4d !important;
 }
 
+/* line 117, ../sass/style.scss */
 .navbar-header {
   position: absolute;
   /* margin-left: auto!important; */
 }
 
+/* line 122, ../sass/style.scss */
 .navbar-default .navbar-toggle {
-  border-color: #969696!important;
-  background: #2C2E27!important;
-  margin-left: 4px!important;
+  border-color: #969696 !important;
+  background: #2C2E27 !important;
+  margin-left: 4px !important;
 }
 
+/* line 128, ../sass/style.scss */
 .navbar-default .navbar-toggle .icon-bar {
-  background-color: rgba(255, 255, 255, 0.69)!important;
+  background-color: rgba(255, 255, 255, 0.69) !important;
 }
 
+/* line 132, ../sass/style.scss */
 div#myNavbar {
   margin-top: 0;
   background: transparent;
 }
 
+/* line 137, ../sass/style.scss */
 .crossover {
   padding-bottom: 7px;
   padding-top: 4px;
@@ -141,17 +164,18 @@ div#myNavbar {
   color: #000;
   margin-top: -2.4em;
   background: #cdeb8e;
- /* Old browsers */
+  /* Old browsers */
   background: -moz-linear-gradient(top, #cdeb8e 0%, #a5c956 100%);
- /* FF3.6-15 */
-  background: -webkit-linear-gradient(top, #cdeb8e 0%,#a5c956 100%);
- /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to bottom, #cdeb8e 0%,#a5c956 100%);
- /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #cdeb8e 0%, #a5c956 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #cdeb8e 0%, #a5c956 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cdeb8e', endColorstr='#a5c956',GradientType=0 );
- /* IE6-9 */
+  /* IE6-9 */
 }
 
+/* line 155, ../sass/style.scss */
 span.cork {
   margin-left: 17em;
   background: rgba(255, 255, 255, 0.6);
@@ -159,41 +183,49 @@ span.cork {
   font-family: monospace;
 }
 
+/* line 162, ../sass/style.scss */
 .center {
   margin-left: 17em;
 }
 
+/* line 166, ../sass/style.scss */
 p.info {
   font-family: initial;
   font-size: 16px;
   font-style: italic;
 }
 
+/* line 172, ../sass/style.scss */
 hr {
   border-top: 1px solid rgba(0, 0, 0, 0.12);
 }
 
+/* line 176, ../sass/style.scss */
 .myButtonLink {
   display: block;
   width: 240px;
   height: 383px;
-  background: url('img/shop-women-collection.jpg') bottom;
+  background: url("img/shop-women-collection.jpg") bottom;
   text-indent: -99999px;
 }
 
+/* line 184, ../sass/style.scss */
 .myButtonLink:hover {
   background-position: 0 0;
 }
 
+/* line 188, ../sass/style.scss */
 .jumbotron {
-  padding: 1px 0!important;
+  padding: 1px 0 !important;
 }
 
+/* line 192, ../sass/style.scss */
 .carousel-inner {
   height: 300px;
-  width: 100%!important;
+  width: 100% !important;
 }
 
+/* line 197, ../sass/style.scss */
 img.carousel {
   position: absolute;
   top: 29%;
@@ -201,6 +233,7 @@ img.carousel {
 }
 
 /* Wrapper */
+/* line 204, ../sass/style.scss */
 .icon-button {
   background-color: white;
   border-radius: 3.6rem;
@@ -220,6 +253,7 @@ img.carousel {
 }
 
 /* Circle */
+/* line 223, ../sass/style.scss */
 .icon-button span {
   border-radius: 0;
   display: block;
@@ -235,6 +269,7 @@ img.carousel {
   width: 0;
 }
 
+/* line 238, ../sass/style.scss */
 .icon-button:hover span {
   width: 3.6rem;
   height: 3.6rem;
@@ -242,19 +277,23 @@ img.carousel {
   margin: -1.8rem;
 }
 
+/* line 245, ../sass/style.scss */
 .twitter span {
   background-color: #4099ff;
 }
 
+/* line 249, ../sass/style.scss */
 .facebook span {
   background-color: #3B5998;
 }
 
+/* line 253, ../sass/style.scss */
 .google-plus span {
   background-color: #db5a3c;
 }
 
 /* Icons */
+/* line 258, ../sass/style.scss */
 .icon-button i {
   background: none;
   color: white;
@@ -271,24 +310,29 @@ img.carousel {
   z-index: 10;
 }
 
+/* line 274, ../sass/style.scss */
 .icon-button .icon-twitter {
   color: #4099ff;
 }
 
+/* line 278, ../sass/style.scss */
 .icon-button .icon-facebook {
   color: #3B5998;
 }
 
+/* line 282, ../sass/style.scss */
 .icon-button .icon-google-plus {
   color: #db5a3c;
 }
 
+/* line 286, ../sass/style.scss */
 .icon-button:hover .icon-twitter,
 .icon-button:hover .icon-facebook,
 .icon-button:hover .icon-google-plus {
   color: white;
 }
 
+/* line 292, ../sass/style.scss */
 .navbar-default .navbar-brand {
-  color: #A2D23A!important;
+  color: #A2D23A !important;
 }
