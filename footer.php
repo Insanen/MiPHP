@@ -4,8 +4,6 @@
 
       <footer>
 
-
-      <!-- Example row of columns -->
       <div class="row">
 
         <div class="col-md-2">
@@ -46,10 +44,9 @@ Careers<br />
 
 
       </footer>
-      <script src="js/jquery.js"></script>
-      <script src="js/bootstrap.min.js"></script>
-      <script src="js/bootstrap.min.js"></script>
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="js/ie10-viewport-bug-workaround.js"></script>
+      <script src="vendors/jquery/dist/jquery.min.js"></script>
+      <script src="vendors/bootstrap/dist/js/bootstrap.min.js"></script>
+      <script src="vendors/bootstrap/dist/js/bootstrap.min.js"></script>
+
   </body>
   </html>
