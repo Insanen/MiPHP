@@ -1,12 +1,3 @@
-/*
-
-=== Aetrex Front-End Solution ===
-Contributors: MisterZik, Insanen Team, Insanen Solutions
-Tags: front-end, php, css, aetrex frontend
-Donate link: http://insanen.com
-License: MIT
-
-*/
 @media screen and (max-width: 600px) {
   /* line 12, ../sass/style.scss */
   .navbar > .container .navbar-brand, .navbar > .container-fluid .navbar-brand {

@@ -3,7 +3,7 @@
 <head>
 
 <link href="vendors/font-awesome/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-XdYbMnZ/QjLh6iI4ogqCTaIjrFk87ip+ekIjefZch0Y+PvJ8CDYtEs1ipDmPorQ+" crossorigin="anonymous">
-<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/style.min.css">
 <link rel="stylesheet" href="vendors/bootstrap/dist/css/bootstrap.min.css">
 
 <meta charset="utf-8">
