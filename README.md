@@ -10,9 +10,9 @@ Super Micro MiPHP Framework - If it ain't broken, why fix it?.
 - CSS3
 
 ### Todo's
-  * Add PHP OOP
   * Add MySql (Registration, Login and Search)
   * Add Backend for easy modification of theme.
+  * ~~Add PHP OOP~~
   * ~~Add Mobile View.~~
   * ~~Add Grunt~~
   * ~~Add SCSS~~
