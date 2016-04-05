@@ -2,9 +2,9 @@
 <html>
 <head>
 
-<link href="vendors/font-awesome/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-XdYbMnZ/QjLh6iI4ogqCTaIjrFk87ip+ekIjefZch0Y+PvJ8CDYtEs1ipDmPorQ+" crossorigin="anonymous">
+<link href="scripts/font-awesome/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-XdYbMnZ/QjLh6iI4ogqCTaIjrFk87ip+ekIjefZch0Y+PvJ8CDYtEs1ipDmPorQ+" crossorigin="anonymous">
 <link rel="stylesheet" href="css/style.min.css">
-<link rel="stylesheet" href="vendors/bootstrap/dist/css/bootstrap.min.css">
+<link rel="stylesheet" href="scripts/bootstrap/dist/css/bootstrap.min.css">
 
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -29,14 +29,14 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="#" id="motto">MiPHP</a>
+      <a class="navbar-brand" href="index.php" id="motto">MiPHP</a>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-right">
-        <li class="active"><a href="#">Home</a></li>
-        <li><a href="#">About Us</a></li>
-        <li><a href="#">Blog</a></li>
-        <li><a href="#">Contact Us</a></li>
+        <li class="active"><a href="index.php">Home</a></li>
+        <li><a href="About">About Us</a></li>
+        <li><a href="Blog">Blog</a></li>
+        <li><a href="Contact">Contact Us</a></li>
       </ul>
     </div>
   </div>
