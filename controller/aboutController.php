@@ -1,5 +1,15 @@
 <?php
 
+/*
+    Name: MiPHP
+    Description:
+    Version: 1.0.2
+*/
+
+/**
+ *  @version	1.0.2
+ */
+
 class aboutController extends baseController
 {
     public function index()

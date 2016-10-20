@@ -1,4 +1,14 @@
 <?php
+/*
+    Name: MiPHP
+    Description:
+    Version: 1.0.2
+*/
+
+/**
+ *  @version	1.0.2
+ */
+
  error_reporting(E_ALL);
  define( 'ROOT_DIR', dirname(__FILE__) );
  $site_path = realpath(dirname(__FILE__));
