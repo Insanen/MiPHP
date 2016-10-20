@@ -1,16 +1,22 @@
 <?php
 
+/*
+    Name: MiPHP
+    Description:
+    Version: 1.0.2
+*/
+
+/**
+ *  @version	1.0.2
+ */
+
 class router {
 
  private $registry;
  private $path;
-
  private $args = array();
-
  public $file;
-
  public $controller;
-
  public $action;
 
  function __construct($registry) {
@@ -18,7 +24,6 @@ class router {
  }
 
  function setPath($path) {
-
 	if (is_dir($path) == false)
 	{
 		throw new Exception ('Invalid controller path: `' . $path . '`');
@@ -26,21 +31,16 @@ class router {
  	$this->path = $path;
 }
 
-
- public function loader()
- {
+public function loader(){
 	$this->getController();
 	if (is_readable($this->file) == false)
 	{
 		$this->file = $this->path.'/error404.php';
                 $this->controller = 'error404';
 	}
-
 	include $this->file;
-
 	$class = $this->controller . 'Controller';
 	$controller = new $class($this->registry);
-
 	if (is_callable(array($controller, $this->action)) == false)
 	{
 		$action = 'index';
@@ -50,12 +50,10 @@ class router {
 		$action = $this->action;
 	}
 	$controller->$action();
- }
+}
 
 private function getController() {
-
 	$route = (empty($_GET['page'])) ? '' : $_GET['page'];
-
 	if (empty($route))
 	{
 		$route = 'index';
@@ -69,19 +67,14 @@ private function getController() {
 			$this->action = $parts[1];
 		}
 	}
-
 	if (empty($this->controller))
 	{
 		$this->controller = 'index';
 	}
-
 	if (empty($this->action))
 	{
 		$this->action = 'index';
 	}
-
 	$this->file = $this->path .'/'. $this->controller . 'Controller.php';
-}
-
-
+ }
 }

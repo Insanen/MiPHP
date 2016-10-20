@@ -1,7 +1,15 @@
 <?php
+/*
+    Name: MiPHP
+    Description:
+    Version: 1.0.2
+*/
+
+/**
+ *  @version	1.0.2
+ */
 
 Class blogController Extends baseController {
-
 public function index()
 {
         $this->registry->template->blog_heading = 'Blog Entries';
@@ -11,10 +19,7 @@ public function index()
         $this->registry->template->fourthslider = 'img/banner4.jpg';
         $this->registry->template->show('blog_index');
 }
-
-
 public function view(){
-
 	$this->registry->template->blog_heading = 'Heading';
 	$this->registry->template->blog_content = 'Content';
   $this->registry->template->firstslider = 'img/banner.jpg';
@@ -22,6 +27,5 @@ public function view(){
   $this->registry->template->thirdslider = 'img/banner3.jpg';
   $this->registry->template->fourthslider = 'img/banner4.jpg';
 	$this->registry->template->show('blog_view');
-}
-
+ }
 }

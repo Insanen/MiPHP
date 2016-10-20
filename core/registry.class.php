@@ -1,7 +1,16 @@
 <?php
 
-Class Registry {
+/*
+    Name: MiPHP
+    Description:
+    Version: 1.0.2
+*/
 
+/**
+ *  @version	1.0.2
+ */
+
+Class Registry {
  private $vars = array();
  public function __set($index, $value)
  {
@@ -12,6 +21,4 @@ Class Registry {
  {
 	return $this->vars[$index];
  }
-
-
 }

@@ -1,19 +1,27 @@
 <?php
 
-Class Template {
-private $registry;
+/*
+    Name: MiPHP
+    Description:
+    Version: 1.0.2
+*/
 
-private $vars = array();
+/**
+ *  @version	1.0.2
+ */
+
+Class Template {
+ private $registry;
+ private $vars = array();
 
 /*
  * @constructor
  * @access public
  * @return void
  */
-function __construct($registry) {
+ function __construct($registry) {
 	$this->registry = $registry;
-
-}
+ }
 
  /*
  * @set undefined vars
@@ -26,21 +34,17 @@ function __construct($registry) {
         $this->vars[$index] = $value;
  }
 
-
 function show($name) {
 	$path = __SITE_PATH . '/views' . '/' . $name . '.php';
-
 	if (file_exists($path) == false)
 	{
 		throw new Exception('Template not found in '. $path);
 		return false;
 	}
-
 	foreach ($this->vars as $key => $value)
 	{
 		$$key = $value;
 	}
-
 	include ($path);
-}
+ }
 }
